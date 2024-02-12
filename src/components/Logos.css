@@ -1,0 +1,15 @@
+.logos{
+    background-color: transparent;
+    width: 100vw;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+}
+.logos img{
+    padding: 5px 60px;
+    mix-blend-mode: luminosity;
+}
+
+#logoSM:hover, #logoPru:hover, #logoAll:hover{
+    mix-blend-mode: darken;
+}

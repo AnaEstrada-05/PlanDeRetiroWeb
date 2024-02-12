@@ -1,0 +1,74 @@
+/*Main NavBar Styles*/
+#logo {
+  height: auto;
+  position: absolute;
+  margin-top: 22px;
+  margin-left: 153px;
+}
+.navBar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 90px;
+  z-index: 10;
+  justify-content: space-between;
+  background-color: white;
+}
+.navBarContent {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  align-items: center;
+  margin-right: 2vw;
+}
+.navBarItem{
+  padding-right: 1px;
+  padding-left: 35px;
+  color: black;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  text-decoration: none;
+}
+.planRetiro:hover{
+  color: #426ffe;
+}
+.ahorro:hover{
+  color: #9ACC5E;
+}
+.educacion:hover{
+  color: #FF6A42;
+}
+.mujer:hover{
+  color: #F993D6;
+}
+.agendar{
+  border: 1px solid #1A090D;
+  border-radius: 25px;
+  transition: .3s all;
+  padding: 8px;
+  background-color: #FFE01B;
+  color: #1A090D;
+  right: 153px;
+  position: absolute;
+  width: 178px;
+  text-decoration: none;
+  text-align: center;
+}
+.agendar:hover {
+  cursor: pointer;
+  box-shadow: 3px 5px 0 rgb(0 0 0);
+  color: black!important;
+}
+.agendar:active {
+  transform: translateY(6px); 
+}
+
+@media screen and (max-width: 1400px) {
+  .navBarItem {
+    visibility: hidden;
+  }
+  .agenda {
+    visibility: visible !important;
+  }
+}

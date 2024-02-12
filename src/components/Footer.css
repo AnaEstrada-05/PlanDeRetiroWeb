@@ -1,0 +1,128 @@
+.footer {
+    background-color: #1A090D;
+    color: white;
+    width: 100vw;
+    height: 420px;
+}
+
+.marcaregistrada {
+    font-size: 10px;
+    color: white;
+    width: 1110px;
+    margin: 37px 145px;
+    text-align: justify;
+}
+
+.divider {
+    background-color: white;
+    width: 100vw;
+    height: 2px;
+}
+
+.footerInfo h3 {
+    font-size: 17px;
+    width: 500px;
+    padding-bottom: 13px;
+}
+
+.footerInfo h2 {
+    font-size: 20px;
+}
+
+.footerInfo p {
+    font-size: 13px;
+    width: 160px;
+}
+
+#footerButton{
+    margin-top: 10px;
+    border: none!important;
+    background-color: #679BFF!important;
+    text-decoration: none!important;
+    color: black!important;
+    text-align: center;
+}
+
+.footerInfo a {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+}
+
+.footerInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    height: 260px;
+    padding-top: 25px;
+    padding-left: 90px;
+}
+
+.footerText {
+    display: flex;
+    width: 50%;
+}
+
+.footerText div {
+    width: 225px;
+}
+
+#metasDesc {
+    margin-top: 27px;
+    margin-left: -20px;
+}
+
+.footerText p {
+    top: 0px;
+}
+
+.footerText a:hover {
+    cursor: pointer;
+    color: #679BFF;
+}
+
+.footer img {
+    margin-top: 54px !important;
+    margin-left: 152px !important;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+    .footerInfo {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .footerText {
+        width: 100%;
+    }
+
+    .footerText div {
+        width: 100%;
+    }
+
+    #metasDesc {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .marcaregistrada {
+        margin-left: 0;
+    }
+
+    .footerInfo h3 {
+        width: 100%;
+    }
+
+    .footerInfo p {
+        width: 100%;
+    }
+
+    .footer img {
+        margin-left: 0 !important;
+    }
+}

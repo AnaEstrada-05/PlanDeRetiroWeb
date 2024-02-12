@@ -1,0 +1,35 @@
+.desglose{
+    background-color: #F5F1E3;
+    color: black;
+    height: 206px;
+    width: 100vw;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.t1{
+    font-size: 21px;
+}
+
+.t2{
+    font-size: 64px;
+    letter-spacing: 1.92px;
+    line-height: 70.4px;
+}
+
+.divisor{
+    width: 138px;
+    height: 2px;
+    background-color: black;
+    transform: rotate(90deg );
+}
